@@ -1,9 +1,9 @@
 angular.module("arkServerManagerApp", ["ngRoute", "ngResource", "ui.bootstrap", "arkServerManagerApp.server", "arkServerManagerApp.config"]), angular.module("arkServerManagerApp.config", []), angular.module("arkServerManagerApp.server", []), angular.module("arkServerManagerApp").config(["$routeProvider", "$httpProvider", function (e, r) {
   e.when("./login", {
-    templateUrl: "/partials/login.html",
+    templateUrl: "./partials/login.html",
     controller: "LoginController"
   }).when("./manager", {
-    templateUrl: "/partials/manager.html",
+    templateUrl: "./partials/manager.html",
     controller: "ServerController"
   }).otherwise({
     redirectTo: "./manager"
