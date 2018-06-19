@@ -17,7 +17,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-util": "3.0.7",
     "helmet": "^2.1.2",
-    "jsonwebtoken": "^7.1.9",
+    "jsonwebtoken": "^8.0.0",
     "letsencrypt-express": "^1.1.5",
     "morgan": "^1.7.0",
     "nedb": "^1.8.0",
